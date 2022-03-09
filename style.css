@@ -1,0 +1,54 @@
+body{
+    font-family: tahoma, sans-serif;
+    text-align: left;
+    background-image: linear-gradient(to bottom right, #abbaab, #ffffff);
+}
+.main{
+    margin-left: 32%;
+    margin-right: 25%;
+}
+.header{
+    color: rgb(14, 55, 95);
+    text-transform: uppercase;
+    margin-left: 15%;
+    margin-right: 17%;
+    border-bottom: 4px solid rgb(100, 105, 112);
+}
+.section{
+    color:rgb(68, 121, 173);
+    text-transform: uppercase;
+}
+h4{
+    color: rgb(118, 140, 161);
+    line-height: 2px;
+}
+img{
+    width: 18%;
+    float: right;
+    border: 2px solid rgb(100, 105, 112);
+}
+.column{
+    float: left;
+    margin-left: 15%;
+}
+.column1{
+    border-bottom: 4px solid rgb(100, 105, 112);
+}
+.column2{
+    border-bottom: 4px solid rgb(100, 105, 112);
+}
+h1 {
+    width: 901px;
+    height: 40px;
+    background: none;
+    position: relative;
+    animation: slide 1.5s;
+    animation-iteration-count: 4;
+    animation-direction: alternate; 
+    animation-timing-function: linear
+  }
+  
+  @keyframes slide {
+    from {left:0px; top:0px;}
+    to {left:280px; top:0px;}
+  }
